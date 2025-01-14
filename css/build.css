@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.head {
+  margin-top: 0px;
+  text-align: center;
+  background-color: black; 
+  color: white;
+  padding: 2vw;
+  border: 2px solid darkgray;
+  margin: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top:0;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  border-radius: 7px;
+  background-color: black;
+  cursor: pointer;
+  padding: 8px;
+  color: white;
+  font-family: "Poppins", serif;
+}
+.main-head {
+  background-color: black;
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.text-side {
+  color: white;
+  font-family: "Poppins", serif;
+  font-size: 30px;
+}
+.hero {
+
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.video {
+  border: none;
+}
+.text-side {
+  margin-left: 20px;
+}
+.hero-2 {
+  margin-top: 60px;
+  color: white;
+}
+
+.heading {
+  font-size: 40px;
+  font-family: "Poppins", serif;
+  text-align: center;
+}
+.vid-h2 {
+  margin-left: 30%;
+}
+
+.card {
+  font-family: "Poppins", serif;
+  background-color: white;
+  height: 450px;
+  width: 244px;
+  border-radius: 7px;
+  border: 8px solid rgb(183, 240, 173);
+  /* box-shadow: 10px 5px rgba(162, 225, 13, 0.2); */
+  padding: 3px;
+  transition: 500ms;
+}
+.card-img {
+  padding: 5px;
+}
+.card-img img {
+  border-radius: 7px;
+}
+.capsule {
+  padding: 8px 34px 12px 20px;
+}
+.capsule span {
+  font-size: 12px;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 4px 6px;
+}
+.text {
+  padding-left: 12px;
+}
+.btn button {
+  margin: 5px 0px 25px 12px;
+  padding: 6px;
+  border-radius: 10px;
+  color: rgb(32, 174, 221);
+  background-color: rgb(231, 228, 228);
+  cursor: pointer;
+  border: none;
+}
+.card-section {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 48px 132px;
+  gap: 130px;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+.vid video:hover{
+    transform: scale(1.1);
+    z-index: 2;
+  }
+.sec2 {
+  color: white;
+  font-family: "Poppins", serif;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bolde;
+  font-style: italic;
+}
+.vid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+.vid video {
+  border: 10px solid lightgreen; /* Change the color and thickness as needed */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  transition: 200ms;
+}
+.img1{
+  margin-left:15%;
+}
+.img2{
+  margin-left: 50%;
+}
+.img3{
+  margin-left: 15%;
+}
+.process{
+  margin-top:100px
+}
+.process-text{
+  color: white;
+  font-family: "Poppins", serif;
+  font-size: 30px;
+}
+.process div img{
+  border: 10px solid lightgreen; /* Change the color and thickness as needed */
+  border-radius: 10px; 
+}
+.logos{
+  overflow: hidden;
+  white-space: nowrap;
+}
+.logo-slides{
+      display: inline-block;
+     margin: 70px 0px 100px 0px;
+     animation: 15s slider infinite linear; 
+}
+.logo-slides img{
+  border-radius: 10px;
+  margin: 0 45px;
+}
+@keyframes slider{
+  from{
+  transform: translateX(0);
+  }
+  to {
+   transform: translateX(-100%);
+  }
+  }
+ .foot{
+    height: 300px;
+    width: 98vw;
+    border: 2px solid darkgray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(39, 39, 39);
+ }
+ .foot ul li{
+  padding: 10px;
+  list-style-type: none;
+ }
+ a{
+  color: blueviolet;
+  font-style: none;
+  text-decoration: none;
+ }
+ .fixlogo{
+      border-radius: 60px;
+      margin-top: 53vh;
+      margin-left: 92%;
+      height: 80px;
+      width: 80px;
+      position: fixed;
+ }
+  .copy{
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(39, 39, 39);
+   padding: 20px;
+   font-size: 24px;
+  }
