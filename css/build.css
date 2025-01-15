@@ -9,7 +9,7 @@ body {
 .head {
   margin-top: 0px;
   text-align: center;
-  background-color: black; 
+  background-color: black;
   color: white;
   padding: 2vw;
   border: 2px solid darkgray;
@@ -20,7 +20,7 @@ body {
   position: fixed;
   right: 0;
   left: 0;
-  top:0;
+  top: 0;
 }
 
 button {
@@ -45,7 +45,6 @@ button {
   font-size: 30px;
 }
 .hero {
-
   margin-top: 100px;
   display: flex;
   justify-content: center;
@@ -121,10 +120,10 @@ button {
   transform: scale(1.2);
   z-index: 2;
 }
-.vid video:hover{
-    transform: scale(1.1);
-    z-index: 2;
-  }
+.vid video:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
 .sec2 {
   color: white;
   font-family: "Poppins", serif;
@@ -144,81 +143,132 @@ button {
   border-radius: 10px; /* Optional: Add rounded corners */
   transition: 200ms;
 }
-.img1{
-  margin-left:15%;
-}
-.img2{
-  margin-left: 50%;
-}
-.img3{
+.img1 {
   margin-left: 15%;
 }
-.process{
-  margin-top:100px
+.img2 {
+  margin-left: 50%;
 }
-.process-text{
+.img3 {
+  margin-left: 15%;
+}
+.process {
+  margin-top: 100px;
+}
+.process-text {
   color: white;
   font-family: "Poppins", serif;
   font-size: 30px;
 }
-.process div img{
+.process div img {
   border: 10px solid lightgreen; /* Change the color and thickness as needed */
-  border-radius: 10px; 
+  border-radius: 10px;
 }
-.logos{
+.logos {
   overflow: hidden;
   white-space: nowrap;
 }
-.logo-slides{
-      display: inline-block;
-     margin: 70px 0px 100px 0px;
-     animation: 15s slider infinite linear; 
+.logo-slides {
+  display: inline-block;
+  margin: 70px 0px 100px 0px;
+  animation: 15s slider infinite linear;
 }
-.logo-slides img{
+.logo-slides img {
   border-radius: 10px;
   margin: 0 45px;
 }
-@keyframes slider{
-  from{
-  transform: translateX(0);
+@keyframes slider {
+  from {
+    transform: translateX(0);
   }
   to {
-   transform: translateX(-100%);
+    transform: translateX(-100%);
   }
-  }
- .foot{
-    height: 300px;
-    width: 98vw;
-    border: 2px solid darkgray;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(39, 39, 39);
- }
- .foot ul li{
+}
+.foot {
+  height: 300px;
+  width: 98vw;
+  border: 2px solid darkgray;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(39, 39, 39);
+}
+.foot ul li {
   padding: 10px;
   list-style-type: none;
- }
- a{
+}
+a {
   color: blueviolet;
   font-style: none;
   text-decoration: none;
- }
- .fixlogo{
-      border-radius: 60px;
-      margin-top: 53vh;
-      margin-left: 92%;
-      height: 80px;
-      width: 80px;
-      position: fixed;
- }
-  .copy{
-    color: wheat;
+}
+.fixlogo {
+  border-radius: 60px;
+  margin-top: 53vh;
+  margin-left: 92%;
+  height: 80px;
+  width: 80px;
+  position: fixed;
+}
+.copy {
+  color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(39, 39, 39);
+  padding: 20px;
+  font-size: 24px;
+}
+@media (max-width: 600px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  margin-left: 150px;
+  }
+  .text-side{
+    margin:40px;
+  }
+  .hero-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  margin-left: px;
+  }
+
+  video{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(39, 39, 39);
-   padding: 20px;
-   font-size: 24px;
   }
+  .vid-h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+  }
+  .card-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .foot{
+    max-width: 100vh;
+  }
+  .fixlogo{
+    margin-top: 100vh;
+    margin-left: 100vw;
+    margin-bottom: 5px;
+  }
+  .sec2{
+    text-align: center;
+  }
+}
